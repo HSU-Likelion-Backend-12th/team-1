@@ -1,5 +1,5 @@
 # team-1
-[0팀] 과제 제출 Repository
+[1팀] 과제 제출 Repository
 
 <br><br>
 
