@@ -6,7 +6,8 @@ import java.util.*;
  */
 public class MemoryMemberRepository implements MemberRepository {
     private static Map<Long, Member> store = new HashMap<>();
-    private static long sequence = 0L;
+    private static long sequence = 0L; // static이 아니면 레포지토리 테스트 시, 다른 DB가 되어 문제가 생김
+
     @Override
     public Member save(Member member) {
         member.setId(++sequence);

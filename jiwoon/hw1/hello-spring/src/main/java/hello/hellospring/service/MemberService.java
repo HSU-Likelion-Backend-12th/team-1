@@ -7,8 +7,13 @@ import hello.hellospring.repository.MemoryMemberRepository;
 import java.util.List;
 import java.util.Optional;
 
-public class MemberService {
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+public class MemberService { // ctrl + shift + T => 테스트 생성 단축키
+    //private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+
+    public MemberService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository; // 직접 new하지 않고 외부에서 넣어줌 -> Dependency Injection(DI)
+    }
 
     /**
      * 회원 가입
