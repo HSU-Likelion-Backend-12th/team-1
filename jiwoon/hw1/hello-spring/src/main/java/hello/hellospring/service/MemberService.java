@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
+// @Service
 public class MemberService { // ctrl + shift + T => 테스트 생성 단축키
     //private final MemberRepository memberRepository = new MemoryMemberRepository();
     private final MemberRepository memberRepository;
@@ -51,4 +51,6 @@ public class MemberService { // ctrl + shift + T => 테스트 생성 단축키
     public Optional<Member> findOne(Long memberId) {
         return memberRepository.findById(memberId);
     }
-} // 서비스는 비즈니스 용어 사용 지향할 것
+} // 서비스는 비즈니스 용어 사용 지향할 것\
+
+// 2. 직접 스프링빈 등록하기 -> @Service, @Autowired 지우기
