@@ -9,11 +9,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 public class MemberService {
     private final MemberRepository memberRepository;
 
-    @Autowired
     public MemberService(MemberRepository memberRepository){
         //외부에서 메모리 멤버 리포지토리를 넣어준다-> Dependency Injection
         this.memberRepository=memberRepository;
