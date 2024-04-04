@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 //Command+Shift+T => 테스트
 //service 는 비즈니스 롤에 맞도록 네이밍
-@Service
+//@Service
 public class MemberService {
 
     private final MemberRepository memberRepository;
