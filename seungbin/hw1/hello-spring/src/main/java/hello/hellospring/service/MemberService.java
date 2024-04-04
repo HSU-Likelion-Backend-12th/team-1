@@ -6,11 +6,14 @@ import hello.hellospring.repository.MemoryMemberRepository;
 
 import java.util.List;
 import java.util.Optional;
-
+//Command+Shift+T => 테스트
 //service 는 비즈니스 롤에 맞도록 네이밍
 public class MemberService {
 
-    private final MemberRepository memberRepository  = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+    public MemberService(MemberRepository memberRepository){
+        this.memberRepository = memberRepository;
+    }
 
     /**
      * 회원가입
