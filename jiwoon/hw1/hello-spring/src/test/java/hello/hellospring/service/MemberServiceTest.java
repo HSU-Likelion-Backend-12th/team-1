@@ -6,6 +6,7 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.test.annotation.Commit;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
@@ -30,6 +31,7 @@ class MemberServiceTest {
 
     // test는 한글로 바꿔도 됨 // test code는 실제 코드에 포함X
     @Test
+    //@Commit
     void 회원가입() {
         //given
         Member member = new Member();
