@@ -3,14 +3,18 @@ package hello.hellospring.service;
 import hello.hellospring.domain.Member;
 import hello.hellospring.repository.MemberRepository;
 import hello.hellospring.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 //Command+Shift+T => 테스트
 //service 는 비즈니스 롤에 맞도록 네이밍
+@Service
 public class MemberService {
 
     private final MemberRepository memberRepository;
+    @Autowired
     public MemberService(MemberRepository memberRepository){
         this.memberRepository = memberRepository;
     }
