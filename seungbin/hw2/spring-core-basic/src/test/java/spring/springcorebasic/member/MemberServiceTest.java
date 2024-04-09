@@ -2,10 +2,12 @@ package spring.springcorebasic.member;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import spring.springcorebasic.AppConfig;
 
 public class MemberServiceTest {
 
-    MemberService memberService = new MemberServiceImpl();
+    AppConfig appConfig = new AppConfig();
+    MemberService memberService = appConfig.memberService();
 
     // Test Case를 쉽게 작성하기 위한 로직 given-when-then
     @Test
