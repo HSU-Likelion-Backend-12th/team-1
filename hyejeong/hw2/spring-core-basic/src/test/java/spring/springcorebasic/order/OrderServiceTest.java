@@ -8,8 +8,8 @@ import spring.springcorebasic.member.MemberService;
 import spring.springcorebasic.member.MemberServiceImpl;
 
 public class OrderServiceTest {
-    MemberService memberService = new MemberServiceImpl();
-    OrderService orderService = new OrderServiceImpl();
+    MemberService memberService;
+    OrderService orderService;
 
     @Test
     void createOrder() {

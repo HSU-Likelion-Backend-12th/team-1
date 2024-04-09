@@ -1,12 +1,10 @@
 package spring.springcorebasic;
 
-import org.springframework.boot.ApplicationArguments;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import spring.springcorebasic.member.Grade;
 import spring.springcorebasic.member.Member;
 import spring.springcorebasic.member.MemberService;
-import spring.springcorebasic.member.MemberServiceImpl;
 
 public class MemberApp {
 
