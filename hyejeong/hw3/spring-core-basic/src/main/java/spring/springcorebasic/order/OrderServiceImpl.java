@@ -1,9 +1,12 @@
 package spring.springcorebasic.order;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import spring.springcorebasic.discount.DiscountPolicy;
 import spring.springcorebasic.member.Member;
 import spring.springcorebasic.member.MemberRepository;
 
+@Component
 public class OrderServiceImpl implements OrderService{
 
     //private final MemberRepository memberRepository = new MemoryMemberRepository();
@@ -18,6 +21,7 @@ public class OrderServiceImpl implements OrderService{
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
 
+    @Autowired
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         // 생성자 주입 : 생성자를 사용하여 구체를 주입
         this.memberRepository = memberRepository;
