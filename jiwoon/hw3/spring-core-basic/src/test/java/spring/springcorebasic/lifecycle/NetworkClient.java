@@ -32,7 +32,7 @@ public class NetworkClient {
     }
 
     // 빈 등록을 초기화 메소드
-    @PostConstruct
+    @PostConstruct // 애노테이션 사용 // 편리하게 초기화, 종료 사용 가능
     public void init() {
         System.out.println("NetworkClient.init");
         connect();
@@ -40,7 +40,7 @@ public class NetworkClient {
     }
 
     // 빈 등록 소멸 메소드
-    @PreDestroy
+    @PreDestroy // 애노테이션 사용 // 편리하게 초기화, 종료 사용 가능
     public void close() {
         System.out.println("NetworkClient.close");
         disconnect();
