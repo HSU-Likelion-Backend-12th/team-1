@@ -16,7 +16,7 @@ public class OrderServiceImpl implements OrderService{
     private final DiscountPolicy discountPolicy;
 
     // 생성자 주입: 생성자를 이용하여 의존관계 주입
-    @Autowired
+    //@Autowired // 생성자가 1개만 있으면 autowired 지울 수 있음
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) { // new를 사용하지 않고 생성자의 매개변수로 객체 주입
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
