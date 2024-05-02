@@ -20,8 +20,7 @@ public class OrderServiceImpl implements OrderService{
     // 회원의 등급을 확인하기 위함 => 할인정책 적용을 위해 (DIP 충족 위한 코드로 변경 완료)
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
-
-    @Autowired
+    
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         // 생성자 주입 : 생성자를 사용하여 구체를 주입
         this.memberRepository = memberRepository;
