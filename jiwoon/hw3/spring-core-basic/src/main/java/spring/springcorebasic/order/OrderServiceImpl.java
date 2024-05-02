@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import spring.springcorebasic.discount.DiscountPolicy;
 import spring.springcorebasic.discount.FixDiscountPolicy;
+import spring.springcorebasic.discount.RateDiscountPolicy;
 import spring.springcorebasic.member.Member;
 import spring.springcorebasic.member.MemberRepository;
 import spring.springcorebasic.member.MemoryMemberRepository;

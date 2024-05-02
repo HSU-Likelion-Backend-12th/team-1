@@ -1,5 +1,8 @@
 package spring.springcorebasic.lifecycle;
 
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
+
 public class NetworkClient {
 
     private String url;
@@ -26,5 +29,20 @@ public class NetworkClient {
     // 서비스 종료 시 호출
     public void disconnect() {
         System.out.println("close: " + url);
+    }
+
+    // 빈 등록을 초기화 메소드
+    @PostConstruct
+    public void init() {
+        System.out.println("NetworkClient.init");
+        connect();
+        call("초기화 연결 메시지");
+    }
+
+    // 빈 등록 소멸 메소드
+    @PreDestroy
+    public void close() {
+        System.out.println("NetworkClient.close");
+        disconnect();
     }
 }

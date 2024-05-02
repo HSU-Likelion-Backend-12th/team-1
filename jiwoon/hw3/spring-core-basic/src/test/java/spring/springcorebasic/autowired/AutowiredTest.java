@@ -25,16 +25,16 @@ public class AutowiredTest {
         public void setNoBean1(Member noBean1) {
             System.out.println("setNoBean1 = " + noBean1);
         }
-        //org.springframework.lang.@Nullable : 자동 주입할 대상이 없으면 null이 입력된다.
+        //org.springframework.lang.@Nullable : 자동 주입할 대상이 없으면 null 입력
         //null 호출
         @Autowired
-        public void setNoBean2(@Nullable Member noBean2) {
+        public void setBoBean2(@Nullable Member noBean2){
             System.out.println("setNoBean2 = " + noBean2);
         }
-        //Optional<> : 자동 주입할 대상이 없으면 Optional.empty가 입력된다
+        //Optional<> : 자동 주입할 대싱이 없으면 Optional.empty가 입력
         //Optional.empty 호출
         @Autowired(required = false)
-        public void setNoBean3(Optional<Member> noBean3) {
+        public void setBoBean3(Optional<Member> noBean3){
             System.out.println("setNoBean3 = " + noBean3);
         }
     }
