@@ -1,5 +1,6 @@
 package spring.springcorebasic.order;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import spring.springcorebasic.discount.DiscountPolicy;
@@ -7,6 +8,8 @@ import spring.springcorebasic.member.Member;
 import spring.springcorebasic.member.MemberRepository;
 
 @Component
+@RequiredArgsConstructor //생성자 코드를 그대로 똑같이 만들어줌
+//final이 붙은 필수 값을 파라미터로 받는 생성자를 만들어줌
 public class OrderServiceImpl implements OrderService{
 
     //private final MemberRepository memberRepository = new MemoryMemberRepository();
@@ -20,13 +23,6 @@ public class OrderServiceImpl implements OrderService{
     // 회원의 등급을 확인하기 위함 => 할인정책 적용을 위해 (DIP 충족 위한 코드로 변경 완료)
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
-    
-    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
-        // 생성자 주입 : 생성자를 사용하여 구체를 주입
-        this.memberRepository = memberRepository;
-        this.discountPolicy = discountPolicy;
-    }
-
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {
