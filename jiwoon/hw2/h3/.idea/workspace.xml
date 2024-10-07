@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a28b9e28-06c7-4338-9ff8-0c18e55c5b94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/AutoAppconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/MemberApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/OrderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/SpringCoreBasicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/beanfind/ApplicationContextBasicFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/beanfind/ApplicationContextInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/beanfind/ApplicationContextSameBeanFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/discount/DiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/discount/FixDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/discount/RateDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/member/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/member/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/member/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/member/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/singleton/SingletonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/java/spring/springcorebasic/singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/test/java/spring/springcorebasic/SpringCoreBasicApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/test/java/spring/springcorebasic/member/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw3/spring-core-basic/src/test/java/spring/springcorebasic/order/OrderServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2fsDHhwERicqlXWVVQW6USDKM0F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;jiwoon&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a28b9e28-06c7-4338-9ff8-0c18e55c5b94" name="Changes" comment="" />
+      <created>1714580807509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714580807509</updated>
+      <workItem from="1714580808558" duration="73000" />
+      <workItem from="1714580887727" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
